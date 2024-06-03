@@ -1,0 +1,124 @@
+/* styles/Login.module.css */
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left{
+  flex: 1;
+  background-image: url(public/Image/layout.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  margin:  0;
+}
+.right {
+  flex: 1;
+  background-color: #fff;
+}
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 100px;
+  margin: 200px auto 24px auto;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column; 
+    width: 440px; 
+    margin: 0;
+}
+.loginBox h2 {
+  margin: 0 0 12px;
+  padding: 0;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.inputbox input {
+  width: 440px;
+  height: 55px;
+  padding: 8px 10px;
+  margin: 12px 0 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  border: 3px solid #65558F;
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+}
+.inputbox label {
+  font-size: 20px;
+  color: #000;
+  pointer-events: none;
+}
+.button {
+  width: 440px;
+  height: 55px;
+  background: #201047;
+  border: none;
+  margin: 12px 0 12px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.5s;
+  text-align: center;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  font-weight: bolder;
+}
+.button:hover {
+  background: #4527a0;
+}
+
+.links a{
+  color: #201047;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.links{
+  color: #201047;
+  text-decoration: none;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.link{
+  color: #201047;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 72px;
+}
+.link a{
+  color: #201047;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+.linksContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  padding: 0;
+  margin: 12px;
+}
+
+.links, .link {
+  flex: 1;
+  text-align: center;
+}
+
+.links a:hover, .link a:hover {
+  color: #d7aefb;
+} 
