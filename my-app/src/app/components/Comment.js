@@ -4,7 +4,7 @@ import styles from '../styles/Comment.module.css';
 export default function Comment() {
   return (
     <div className={styles.comment}>
-      <img src="/images/man.png" alt="Avatar Comentario" className={styles.commenterAvatar} />
+      <img src="/images/Man.png" alt="Avatar Comentario" className={styles.commenterAvatar} />
       <div className={styles.commentBody}>
         <div className={styles.commenterName}>Jorge</div>
         <div className={styles.commentTime}>há 3 hora</div>

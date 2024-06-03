@@ -8,8 +8,8 @@ export default function Videos() {
       <a href='#video' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/images/thumb1.jpg"
-        title="Como criar um chat em tempo real..."
-        channel="Rocketseat"
+        title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
+        channel="PeritosAnimal"
         views="199 mil visualizações"
         time="há 10 horas"
       />
@@ -38,8 +38,8 @@ export default function Videos() {
       <a href='#video' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/images/thumb1.jpg"
-        title="Como criar um chat em tempo real..."
-        channel="Rocketseat"
+        title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
+        channel="PeritosAnimal"
         views="199 mil visualizações"
         time="há 10 horas"
       />
@@ -64,12 +64,11 @@ export default function Videos() {
         time="há 5 dias"
       />
       </a>
-
       <a href='#video' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/images/thumb1.jpg"
-        title="Como criar um chat em tempo real..."
-        channel="Rocketseat"
+        title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
+        channel="PeritosAnimal"
         views="199 mil visualizações"
         time="há 10 horas"
       />
@@ -94,7 +93,65 @@ export default function Videos() {
         time="há 5 dias"
       />
       </a>
+      <a href='#video' className={styles.removersub}>
+      <RelatedVideo
+        thumbnail="/images/thumb1.jpg"
+        title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
+        channel="PeritosAnimal"
+        views="199 mil visualizações"
+        time="há 10 horas"
+      />
+      </a>
 
+      <a href='#video' className={styles.removersub}>
+      <RelatedVideo
+        thumbnail="/images/thumb2.jpg"
+        title="Videos de passaros"
+        channel="Vida de passaro"
+        views="50 mil visualizações"
+        time="há 2 dias"
+      />
+      </a>
+
+      <a href='#video' className={styles.removersub}>
+      <RelatedVideo
+        thumbnail="/images/thumb3.jpg"
+        title="React Full Course for free ⚛️ (2024)"
+        channel="Bros code"
+        views="75 mil visualizações"
+        time="há 5 dias"
+      />
+      </a>
+      <a href='#video' className={styles.removersub}>
+      <RelatedVideo
+        thumbnail="/images/thumb1.jpg"
+        title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
+        channel="PeritosAnimal"
+        views="199 mil visualizações"
+        time="há 10 horas"
+      />
+      </a>
+
+      <a href='#video' className={styles.removersub}>
+      <RelatedVideo
+        thumbnail="/images/thumb2.jpg"
+        title="Videos de passaros"
+        channel="Vida de passaro"
+        views="50 mil visualizações"
+        time="há 2 dias"
+      />
+      </a>
+
+      <a href='#video' className={styles.removersub}>
+      <RelatedVideo
+        thumbnail="/images/thumb3.jpg"
+        title="React Full Course for free ⚛️ (2024)"
+        channel="Bros code"
+        views="75 mil visualizações"
+        time="há 5 dias"
+      />
+      </a>
+      
     </div>
   );
 }

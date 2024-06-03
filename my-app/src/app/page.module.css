@@ -1,5 +1,5 @@
 .app {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .mainContent {
@@ -11,30 +11,6 @@
 
 .videoSection {
   flex: 1;
-  margin-right: 20px;
-}
-
-
- /* .app {
-  font-family: Arial, sans-serif;
-}
-
-.mainContent {
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 20px;
-  padding-top: 80px; 
 }
 
-.videoSection {
-  width: 100%;
-  max-width: 800px;
-  margin-right: 100px;
-
-}
-
-.commentSection {
-  width: 100%;
-  max-width: 800px;
-} */

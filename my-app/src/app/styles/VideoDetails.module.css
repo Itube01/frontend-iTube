@@ -20,12 +20,16 @@
   }
   
   .subscribeButton {
-    background-color: #cc0000;
+    background-color: #201047;
     color: white;
     border: none;
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+  }
+
+  .subscribeButton:hover{
+    background-color: #7700ff;
   }
   
   .videoStats {
@@ -35,8 +39,9 @@
   }
   
   .videoDescription {
-    background-color: #f8f8f8;
+    background-color: hsla(271, 98%, 51%, 0.5);
     padding: 10px;
     border-radius: 4px;
+
   }
-  
+ 

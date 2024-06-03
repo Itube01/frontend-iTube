@@ -15,7 +15,7 @@ export default function App() {
       <main className={styles.mainContent}>
         <div className={styles.videoSection}>
         <VideoSection videoId={videoId} title={"Como criar um chat em tempo real com HTML, CSS e..."} />
-          <CommentList />
+        <CommentList />
         </div>
         <Videos/>
       </main>
