@@ -118,7 +118,7 @@
   .avatar {
     width: 214px;
     height: 214px;
-    background-image: url(public/image/Man.png) ;
+    background-image: url(public/image/poladobg.png) ;
     border-radius: 50%;
     margin-right: 20px;
   }
@@ -131,7 +131,7 @@
   
   .profileInfo h1 {
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 28px;
   }
   
@@ -148,14 +148,36 @@
     margin-top: 10px; 
   }
   
+  .aaa{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 15px;
+  }
   .videos {
     display: flex;
     gap: 20px;
   }
   
+  /* .clickvideo, .img{
+    width: 10px;
+    height: 10px;
+  } */
   .videoCard {
     flex: 1;
     background-color: #f9f9f9;
     padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
   }
-  
+
+  .val{
+    border-radius: 8px;
+  }
+
+  .logo {
+    margin-left: 55px;
+    z-index: 1 ;
+  }
