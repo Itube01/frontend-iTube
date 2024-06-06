@@ -20,15 +20,29 @@ const Profile = () => {
   return (
     <div className={styles.container}>
       <aside className={styles.sidebar}>
+        <div className={styles.buttonhome}>
         <Image src={logo}className={styles.logo} alt="header_logo" width={64} height={46}  />
         <div className={styles.menuItem}> <Image src={home}className={styles.home} alt="header_home" width={20} height={30}  /> Início</div>
-        <div className={styles.menuItem}>Você</div>
-        <div className={styles.subMenu}>
-          <div className={styles.subMenuItem}><Image src={user}className={styles.user} alt="header_user" width={20} height={30}  />Canal</div>
-          <div className={styles.subMenuItem}><Image src={histor}className={styles.histor} alt="header_histor" width={20} height={30}  />Histórico</div>
-          <div className={styles.subMenuItem}><Image src={play}className={styles.play} alt="header_play" width={20} height={30}  />Meus Vídeos</div>
         </div>
-        <div className={styles.menuItem}>Inscrições</div>
+        
+
+        <div className={styles.menuItem}><strong className={styles.You}>Você</strong></div>
+        <div className={styles.subMenu}>
+          <div className={styles.menuItem}>
+          <div><Image src={user}className={styles.user} alt="header_user" width={20} height={30}  /> </div>
+          <div className={styles.subMenuItem}>Canal</div>
+          </div>
+        <div className={styles.menuItem}>
+        <div><Image src={histor}className={styles.histor} alt="header_histor" width={20} height={30}  /></div>
+          <div className={styles.subMenuItem}>Histórico</div>
+        </div>
+          <div className={styles.menuItem}>
+          <div><Image src={play}className={styles.play} alt="header_play" width={20} height={30}  /></div>
+          <div className={styles.subMenuItem}>Meus Vídeos</div>
+          </div>
+         
+        </div>
+        <div className={styles.menuItem}><strong className={styles.You}>Inscrições</strong></div>
         <div className={styles.subMenu}>
           <div className={styles.subMenuItem}><Image src={filipi}className={styles.filipi} alt="header_user" width={40} height={40}  />Filipe Deschamps </div>
           <div className={styles.subMenuItem}><Image src={alan}className={styles.alan} alt="header_user" width={40} height={40}  />Lives do alanzoka </div>
@@ -63,7 +77,7 @@ const Profile = () => {
               <div className={styles.clickvideo}>
                   <Image src={valorant} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>ASPAS É O REI DA OUTLAW! | 50-15 ft Naxy</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
