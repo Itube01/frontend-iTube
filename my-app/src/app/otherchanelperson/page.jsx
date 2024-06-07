@@ -15,7 +15,7 @@ import filipi from './public/image/filipe.jpg'
 import alan from './public/image/live_alan.jpg'
 import girl from './public/image/lofi.jpg'
 import gamerj from './public/image/davyjones.jpg'
-// import Link from 'next/link';
+import Link from 'next/link'
 
 const Profile = () => {
   return (
@@ -45,10 +45,10 @@ const Profile = () => {
         </div>
         <div className={styles.menuItem}><strong className={styles.You}>Inscrições</strong></div>
         <div className={styles.subMenu}>
-          <div className={styles.subMenuItem}><Image src={filipi}className={styles.filipi} alt="header_user" width={40} height={40}  />Filipe Deschamps </div>
-          <div className={styles.subMenuItem}><Image src={alan}className={styles.alan} alt="header_user" width={40} height={40}  />Lives do alanzoka </div>
-          <div className={styles.subMenuItem}><Image src={gamerj}className={styles.gamerj} alt="header_user" width={40} height={40}  />Gameplayrj</div>
-          <div className={styles.subMenuItem}><Image src={girl}className={styles.girl} alt="header_user" width={40} height={40}  />Lofi Girl</div>
+          <div className={styles.subMenuItem}> <Link href={'#'}> <Image src={filipi}className={styles.filipi} alt="header_user" width={40} height={40}  /></Link> Filipe Deschamps </div>
+          <div className={styles.subMenuItem}> <Link href={'#'}> <Image src={alan}className={styles.alan} alt="header_user" width={40} height={40}  /> </Link> Lives do alanzoka </div>
+          <div className={styles.subMenuItem}> <Link href={'#'}> <Image src={gamerj}className={styles.gamerj} alt="header_user" width={40} height={40}  /> </Link> Gameplayrj</div>
+          <div className={styles.subMenuItem}> <Link href={'#'}> <Image src={girl}className={styles.girl} alt="header_user" width={40} height={40}  /> </Link> Lofi Girl</div>
         </div>
       </aside>
       <main className={styles.main}>
@@ -76,21 +76,27 @@ const Profile = () => {
           <div className={styles.videos}>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
+              <Link href={'#'}>
                   <Image src={valorant} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>ASPAS É O REI DA OUTLAW! | 50-15 ft Naxy</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
+              <Link href={'#'}>
                   <Image src={mortal} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>MORTAL KOMBAT 1 - Homelander (Capitão Pátria)</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
+              <Link href={'#'}>
                   <Image src={fort} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>JOGANDO FORTNITE PELA PRIMEIRA VEZ NA VIDA!</h2>
               <p>1 mil visualizações - há 1 mês</p>
@@ -99,21 +105,27 @@ const Profile = () => {
           <div className={styles.videos}>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
+              <Link href={'#'}>
                   <Image src={mortal} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>MORTAL KOMBAT 1 - Homelander (Capitão Pátria)</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
+              <Link href={'#'}>
                   <Image src={fort} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>JOGANDO FORTNITE PELA PRIMEIRA VEZ NA VIDA!</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
+              <Link href={'#'}>
                   <Image src={valorant} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>ASPAS É O REI DA OUTLAW! | 50-15 ft Naxy</h2>
               <p>1 mil visualizações - há 1 mês</p>
@@ -122,21 +134,27 @@ const Profile = () => {
           <div className={styles.videos}>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
+              <Link href={'#'}>
                   <Image src={fort} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>JOGANDO FORTNITE PELA PRIMEIRA VEZ NA VIDA!</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
+                  <Link href={'#'}>
                   <Image src={valorant} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>ASPAS É O REI DA OUTLAW! | 50-15 ft Naxy</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
-                  <Image src={mortal} className={styles.val} alt="Video Image" width={325} height={183} />
+                  <Link href={'#'}>
+                    <Image src={mortal} className={styles.val} alt="Video Image" width={325} height={183} />
+                  </Link>
               </div>
               <h2>MORTAL KOMBAT 1 - Homelander (Capitão Pátria)</h2>
               <p>1 mil visualizações - há 1 mês</p>

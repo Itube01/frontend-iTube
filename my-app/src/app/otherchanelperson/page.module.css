@@ -1,217 +1,221 @@
-/* components/Profile.module.css */
+  /* components/Profile.module.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 
-.container {
-    display: flex;
-    min-height: 100vh;
-  }
-  
-  .sidebar {
-    width: 200px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    font-size: 20px;
-    font-family: "Inter", sans-serif;
-  }
-  
-  #aside{
-    position: fixed;
+  .container {
+      display: flex;
+      min-height: 100vh;
+    }
     
-  }
-  .menuItem {
-    display: flex;
-    align-items: center;
-    margin-bottom: 24px;
-    margin-top: 24px;
-    font-weight: bold;
-  }
-  
-  .menuItem img {
-    margin-right: 12px;
-    align-items: center;
-  }
-  
-  .subMenuItem {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-weight: normal;
-  }
-  
-  .subMenuItem img {
-    margin-right: 16px;
-    border-radius: 20px;
-  }
-
-  .You{
-    margin-left: 50px;
-  }
-  
-  .subMenu {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .subMenuItem {
-    margin-bottom: 10px;
-  }
-
-  .filipi{
-    border-radius: px;
-  }
-  
-  .main {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around ;
-    padding: 1rem;
-    margin-bottom: 24px;
-    width: 100%;
-  }
-  
-  .searchBar {
-    /* flex: 1; */
-    width: 418px;
-    height: 20px;
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 42px;
-    border-color: transparent;
-    background-color: #C6C5CE;
-    border-style: none;
-    outline: none;
-    font-size: 12px;
-    font-family: "Inter", sans-serif;
-    margin-left: 135px;
-  }
-
- .buttons{
-   margin-left: 100px;
-  } 
-  
-  .uploadButton {
-    padding: 10px 20px;
-    margin-left: 10px;
-    border-radius: 8px;
-    background-color: #65558F;
-    border-style: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: #ddd;
-    font-family: "Inter", sans-serif; 
-  }
-  .profileButton{
-    padding: 10px 20px;
-    margin-left: 10px;
-    border-radius: 8px;
-    background-color: #65558F;
-    border-style: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: #ddd;
-    font-family: "Inter", sans-serif;
-    margin-left: 20px;
-  }
-
-
-  .thumbnailSection {
-    width: 100%;/* Largura total menos a largura do sidebar */
-    margin-bottom: 24px;
+    .sidebar {
+      width: 200px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      font-size: 20px;
+      font-family: "Inter", sans-serif;
+    }
     
-  }
-  
-  .thumbnail {
-    width: 96%;
-    height: 200px; /* Ajuste a altura conforme necessário */
-    object-fit: cover;
-    background-color: #1D1D1D;
-    border-radius: 8px;
-    opacity: 0.5;
-  }
-  
-  .profileSection {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .profileHeader {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .avatar {
-    width: 160px;
-    height: 160px;
-    background-image: url(public/image/poladobg.png) ;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .profileInfo {
-    flex: 1;
-    font-family: "Inter", sans-serif;
-    font-size: 12px; 
-  }
-  
-  .profileInfo h1 {
-    margin: 0;
-    font-family: "inter", sans-serif;
-    font-size: 28px;
-  }
-  
-  .subscribeButton {
-    width: 240px;
-    padding: 10px 20px;
-    background-color: #ddd;
-    border-radius: 24px;
-    border: none;
-    cursor: pointer;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 10px; 
-  }
-  
-  .aaa{
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin-left: 15px;
-  }
-  .videos {
-    display: flex;
-    gap: 20px;
-  }
-  
-  /* .clickvideo, .img{
-    width: 10px;
-    height: 10px;
-  } */
-  .videoCard {
-    flex: 1;
-    background-color: #f9f9f9;
-    padding: 20px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 10px;
-  }
+    #aside{
+      position: fixed;
+      
+    }
+    .menuItem {
+      display: flex;
+      align-items: center;
+      margin-bottom: 24px;
+      margin-top: 24px;
+      font-weight: bold;
+    }
+    
+    .menuItem img {
+      margin-right: 12px;
+      align-items: center;
+    }
+    
+    .subMenuItem {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-weight: normal;
+    }
+    
+    .subMenuItem img {
+      margin-right: 16px;
+      border-radius: 20px;
+    }
 
-  .val{
-    border-radius: 8px;
-  }
+    .You{
+      margin-left: 50px;
+    }
+    
+    .subMenu {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .subMenuItem {
+      margin-bottom: 10px;
+    }
 
-  .logo {
-    margin-left: 55px;
-    z-index: 1 ;
-  }
+    .filipi{
+      border-radius: px;
+    }
+    
+    .main {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around ;
+      padding: 1rem;
+      margin-bottom: 24px;
+      width: 100%;
+    }
+    
+    .searchBar {
+      /* flex: 1; */
+      width: 418px;
+      height: 20px;
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 42px;
+      border-color: transparent;
+      background-color: #C6C5CE;
+      border-style: none;
+      outline: none;
+      font-size: 12px;
+      font-family: "Inter", sans-serif;
+      margin-left: 135px;
+    }
+
+  .buttons{
+    margin-left: 100px;
+    } 
+    
+    .uploadButton {
+      padding: 10px 20px;
+      margin-left: 10px;
+      border-radius: 8px;
+      background-color: #65558F;
+      border-style: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: #ddd;
+      font-family: "Inter", sans-serif; 
+    }
+    .profileButton{
+      padding: 10px 20px;
+      margin-left: 10px;
+      border-radius: 8px;
+      background-color: #65558F;
+      border-style: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: #ddd;
+      font-family: "Inter", sans-serif;
+      margin-left: 20px;
+    }
+
+
+    .thumbnailSection {
+      width: 100%;/* Largura total menos a largura do sidebar */
+      margin-bottom: 24px;
+      
+    }
+    
+    .thumbnail {
+      width: 96%;
+      height: 200px; /* Ajuste a altura conforme necessário */
+      object-fit: cover;
+      background-color: #1D1D1D;
+      border-radius: 8px;
+      opacity: 0.5;
+    }
+    
+    .profileSection {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .profileHeader {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .avatar {
+      width: 160px;
+      height: 160px;
+      background-image: url(public/image/poladobg.png) ;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    
+    .profileInfo {
+      flex: 1;
+      font-family: "Inter", sans-serif;
+      font-size: 12px; 
+    }
+    
+    .profileInfo h1 {
+      margin: 0;
+      font-family: "inter", sans-serif;
+      font-size: 28px;
+    }
+    
+    .subscribeButton {
+      width: 240px;
+      padding: 10px 20px;
+      background-color: #ddd;
+      border-radius: 24px;
+      border: none;
+      cursor: pointer;
+      font-family: "Inter", sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 10px; 
+    }
+    
+    .aaa{
+      font-family: "Inter", sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      margin-left: 15px;
+    }
+    .videos {
+      display: flex;
+      gap: 20px;
+    }
+    
+    /* .clickvideo, .img{
+      width: 10px;
+      height: 10px;
+    } */
+    .videoCard {
+      flex: 1;
+      background-color: #f9f9f9;
+      padding: 20px;
+      font-family: "Inter", sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+
+    .val{
+      border-radius: 8px;
+    }
+
+    .logo {
+      margin-left: 55px;
+      z-index: 1 ;
+    }
+
+    @media screen {
+      
+    }
