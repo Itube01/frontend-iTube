@@ -15,6 +15,7 @@ import filipi from './public/image/filipe.jpg'
 import alan from './public/image/live_alan.jpg'
 import girl from './public/image/lofi.jpg'
 import gamerj from './public/image/davyjones.jpg'
+// import Link from 'next/link';
 
 const Profile = () => {
   return (
@@ -84,14 +85,14 @@ const Profile = () => {
               <div className={styles.clickvideo}>
                   <Image src={mortal} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>MORTAL KOMBAT 1 - Homelander (Capitão Pátria)</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
                   <Image src={fort} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>JOGANDO FORTNITE PELA PRIMEIRA VEZ NA VIDA!</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
           </div>
@@ -100,21 +101,21 @@ const Profile = () => {
               <div className={styles.clickvideo}>
                   <Image src={mortal} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>MORTAL KOMBAT 1 - Homelander (Capitão Pátria)</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
                   <Image src={fort} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>JOGANDO FORTNITE PELA PRIMEIRA VEZ NA VIDA!</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
                   <Image src={valorant} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>ASPAS É O REI DA OUTLAW! | 50-15 ft Naxy</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
           </div>
@@ -123,21 +124,21 @@ const Profile = () => {
               <div className={styles.clickvideo}>
                   <Image src={fort} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>JOGANDO FORTNITE PELA PRIMEIRA VEZ NA VIDA!</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
                   <Image src={valorant} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>ASPAS É O REI DA OUTLAW! | 50-15 ft Naxy</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
             <div className={styles.videoCard}>
               <div className={styles.clickvideo}>
                   <Image src={mortal} className={styles.val} alt="Video Image" width={325} height={183} />
               </div>
-              <h2>Como criar um chat em tempo real com HTML, CSS e...</h2>
+              <h2>MORTAL KOMBAT 1 - Homelander (Capitão Pátria)</h2>
               <p>1 mil visualizações - há 1 mês</p>
             </div>
           </div>
