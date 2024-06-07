@@ -32,11 +32,10 @@
   
   .commentActions {
     display: flex;  
-    justify-content: space-between;
+    
   }
   
   .likeButton, .replyButton {
-    background-color: #ddd;
     border: none;
     padding: 5px 10px;
     border-radius: 4px;

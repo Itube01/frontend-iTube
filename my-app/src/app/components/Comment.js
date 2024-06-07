@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/Comment.module.css';
+import { BiSolidLike,BiSolidDislike } from "react-icons/bi";
 
 export default function Comment() {
   return (
@@ -12,7 +13,8 @@ export default function Comment() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt dictum arcu...
         </div>
         <div className={styles.commentActions}>
-          <button className={styles.likeButton}>Curtir</button>
+          <button className={styles.likeButton}><BiSolidLike /> </button>
+          <button className={styles.likeButton}><BiSolidDislike /> </button>
           <button className={styles.replyButton}>Responder</button>
         </div>
       </div>

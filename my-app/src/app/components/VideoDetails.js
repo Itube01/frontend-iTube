@@ -1,14 +1,24 @@
 import React from 'react';
 import styles from '../styles/VideoDetails.module.css';
+import { BiSolidDislike,BiSolidLike } from "react-icons/bi";
 
 export default function VideoDetails() {
   return (
     <div className={styles.videoDetails}>
-      <h1>Como criar um chat em tempo real com HTML, CSS e...</h1>
+      <h1>Como criar um chat em tempo real com HTML, CSS e JavaScript e colocar online de graça!</h1>
       <div className={styles.channelInfo}>
+        <a  href='#Canal'>
         <img src="/images/Man.png" alt="Channel Avatar" className={styles.channelAvatar} />
+        </a>
+        <a  href='#Canal' className={styles.removersubtitulo} >
         <div className={styles.channelName}>Manual do Dev</div>
+        </a>
         <button className={styles.subscribeButton}>Inscrever-se</button>
+        <div className={styles.actionbutton}>
+        <button className={styles.buttonLike}> <BiSolidLike size={25}/> </button>
+        <button className={styles.buttonDislike}> <BiSolidDislike size={25}/> </button>
+        </div>
+         
       </div>
       <div className={styles.videoStats}>
         <span>6.532 visualizações</span>

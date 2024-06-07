@@ -14,7 +14,7 @@ export default function Videos() {
         time="há 10 horas"
       />
       </a>
-
+      
       <a href='#video' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/images/thumb2.jpg"

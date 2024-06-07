@@ -45,3 +45,20 @@
 
   }
  
+  .removersubtitulo{
+    text-decoration: none;
+    color: black;
+  }
+
+  .actionbutton{
+    padding-left: 45%;
+  }
+  .buttonLike,
+  .buttonDislike{
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+    margin: 5px 5px;
+    
+  }
