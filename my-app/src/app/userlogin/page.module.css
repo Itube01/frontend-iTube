@@ -121,4 +121,38 @@
 
 .links a:hover, .link a:hover {
   color: #d7aefb;
-} 
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    flex: none;
+    width: 100%;
+  }
+  .loginBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 132px;
+  }
+
+
+  .logo {
+    margin: 50px auto 24px auto;
+  }
+
+  .inputbox {
+    max-width: 328px;
+  }
+
+  .inputbox input, .button {
+    max-width: 328px;
+  }
+}
