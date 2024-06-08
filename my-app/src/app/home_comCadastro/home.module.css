@@ -209,6 +209,13 @@
   font-family: 'Inter', sans-serif;
 }
 
+
+
+.removerSub {
+  text-decoration: none;
+  color: inherit;
+}
+
 .videoInfo {
   padding: 5px;
   font-family: 'Inter', sans-serif;
@@ -298,6 +305,13 @@
     box-shadow: 0 5px 5px #000000(0, 0, 0, 0.1);
     transition: transform 0.3s;
     font-family: 'Inter', sans-serif;
+  }
+
+
+
+  .removerSub {
+    text-decoration: none;
+    color: inherit;
   }
 
   .videoInfo {

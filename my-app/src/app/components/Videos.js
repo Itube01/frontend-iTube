@@ -5,7 +5,7 @@ export default function Videos() {
   return (
     <div className={styles.sidebar}>
       
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb1.jpg"
         title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
@@ -15,7 +15,7 @@ export default function Videos() {
       />
       </a>
       
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb2.jpg"
         title="Videos de passaros"
@@ -25,7 +25,7 @@ export default function Videos() {
       />
       </a>
 
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb3.jpg"
         title="React Full Course for free ⚛️ (2024)"
@@ -35,7 +35,7 @@ export default function Videos() {
       />
       </a>
 
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb1.jpg"
         title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
@@ -45,7 +45,7 @@ export default function Videos() {
       />
       </a>
       
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb2.jpg"
         title="Videos de passaros"
@@ -55,7 +55,7 @@ export default function Videos() {
       />
       </a>
 
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb3.jpg"
         title="React Full Course for free ⚛️ (2024)"
@@ -64,7 +64,7 @@ export default function Videos() {
         time="há 5 dias"
       />
       </a>
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb1.jpg"
         title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
@@ -74,7 +74,7 @@ export default function Videos() {
       />
       </a>
       
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb2.jpg"
         title="Videos de passaros"
@@ -84,7 +84,7 @@ export default function Videos() {
       />
       </a>
 
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb3.jpg"
         title="React Full Course for free ⚛️ (2024)"
@@ -93,7 +93,7 @@ export default function Videos() {
         time="há 5 dias"
       />
       </a>
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb1.jpg"
         title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
@@ -103,7 +103,7 @@ export default function Videos() {
       />
       </a>
       
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb2.jpg"
         title="Videos de passaros"
@@ -113,7 +113,7 @@ export default function Videos() {
       />
       </a>
 
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb3.jpg"
         title="React Full Course for free ⚛️ (2024)"
@@ -122,7 +122,7 @@ export default function Videos() {
         time="há 5 dias"
       />
       </a>
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb1.jpg"
         title="10 CURIOSIDADES sobre GATOS que você precisa conhecer!"
@@ -132,7 +132,7 @@ export default function Videos() {
       />
       </a>
       
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb2.jpg"
         title="Videos de passaros"
@@ -142,7 +142,7 @@ export default function Videos() {
       />
       </a>
 
-      <a href='#video' className={styles.removersub}>
+      <a href='./assistir_video_comCadastro' className={styles.removersub}>
       <RelatedVideo
         thumbnail="/Image/thumb3.jpg"
         title="React Full Course for free ⚛️ (2024)"
