@@ -80,6 +80,11 @@
   background: #4527a0;
 }
 
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .links a{
   color: #201047;
   text-decoration: none;

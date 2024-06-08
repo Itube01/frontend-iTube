@@ -1,0 +1,55 @@
+
+.relatedVideo {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .thumbnailContainer {
+    width: 168px; 
+    height: 94px; 
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .videoInfo {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+  .title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #030303;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    margin: 0;
+  }
+  .channel {
+    font-size: 12px;
+    color: #606060;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .metadata {
+    font-size: 12px;
+    color: #606060;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .removersub{
+    text-decoration: none;
+  }

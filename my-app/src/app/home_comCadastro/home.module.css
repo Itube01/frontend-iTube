@@ -36,7 +36,8 @@
 .searchBar {
   flex: 1;
   margin: 0 20px;
-  margin-left: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 10px 10px;
   border: 2px solid #000000;
   border-radius: 30px;
@@ -44,8 +45,10 @@
 }
 
 .registerButton {
+  justify-content: space-between;
+  margin-right: 8px;
   padding: 10px 20px;
-  border: 5px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 15px;
   background-color: #65558F;
   cursor: pointer;
@@ -56,12 +59,6 @@
 .registerButton:hover {
   background-color: #f1f1f1;
   font-family: 'Inter', sans-serif;
-}
-
-.registerButton a {
-  font-family: 'Inter', sans-serif;
-  text-decoration: none;
-  color: inherit;
 }
 
 .profile {
@@ -107,6 +104,41 @@
 
 }
 
+.sidebarItemb {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #000;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.sidebarItemc {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #000;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.sidebarItemc:hover {
+  background-color: #9747FF;
+  font-family: 'Inter', sans-serif;
+}
+
 .sidebarItem:hover {
   background-color: #9747FF;
   font-family: 'Inter', sans-serif;
@@ -116,13 +148,6 @@
   margin-left: 10px;
   font-family: 'Inter', sans-serif;
 }
-
-.sidebarItem a {
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    color: inherit;
-}
-  
 
 .navigation {
   display: flex;
@@ -179,11 +204,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-.videoCard a {
-  font-family: 'Inter', sans-serif;
-  text-decoration: none;
-  color: inherit;
-}
 .videoCard:hover {
   transform: scale(1.05);
   font-family: 'Inter', sans-serif;
@@ -214,7 +234,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-/* /---------------------------------------------------------------------------------------------------------------/ */
 
 @Media only screen and (max-width: 767px) {
   .container {
@@ -273,7 +292,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000;
+    background-color: #f1f1f1;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 5px 5px #000000(0, 0, 0, 0.1);

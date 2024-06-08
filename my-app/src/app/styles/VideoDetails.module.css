@@ -1,0 +1,64 @@
+.videoDetails {
+    margin: 20px 0;
+  }
+  
+  .channelInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .channelAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .channelName {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .subscribeButton {
+    background-color: #65558F;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .subscribeButton:hover{
+    background-color: #7700ff;
+  }
+  
+  .videoStats {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .videoDescription {
+    background-color: hsla(271, 98%, 51%, 0.5);
+    padding: 10px;
+    border-radius: 4px;
+
+  }
+ 
+  .removersubtitulo{
+    text-decoration: none;
+    color: black;
+  }
+
+  .actionbutton{
+    padding-left: 45%;
+  }
+  .buttonLike,
+  .buttonDislike{
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+    margin: 5px 5px;
+    
+  }

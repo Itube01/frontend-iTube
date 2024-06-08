@@ -1,0 +1,44 @@
+.comment {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+  }
+  
+  .commenterAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .commentBody {
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .commenterName {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .commentTime {
+    color: #666;
+  }
+  
+  .commentText {
+    margin: 10px 0;
+  }
+  
+  .commentActions {
+    display: flex;  
+    
+  }
+  
+  .likeButton, .replyButton {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

@@ -46,12 +46,13 @@ export default function Home() {
           <div className={styles.videoGrid}>
             {videoData.map((video, index) => (
               <div className={styles.videoCard} key={index}>
-                <Image src={video.thumbnail} alt={video.title} width={320} height={180} />
-                <div className={styles.videoInfo}>
-                  <p className={styles.videoTitle}>{video.title}</p>
-                  <p className={styles.videoChannel}>{video.channel}</p>
-                  <p className={styles.videoViews}>{video.views}</p>
-                </div>
+                <a href="./assistir_video_semCadastro"><Image src={video.thumbnail} alt={video.title} width={320} height={180} />
+                  <div className={styles.videoInfo}>
+                    <p className={styles.videoTitle}>{video.title}</p>
+                    <p className={styles.videoChannel}>{video.channel}</p>
+                    <p className={styles.videoViews}>{video.views}</p>
+                  </div>
+                </a>
               </div>
             ))}
           </div>

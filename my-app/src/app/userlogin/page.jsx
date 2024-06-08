@@ -24,7 +24,7 @@ export default function Login() {
             <label>Senha</label>
             <input type="password" required/>
           </div>
-          <div className={styles.button}>Entrar</div>
+          <div className={styles.button}><a href="./home_comCadastro">Entrar</a></div>
           <div className={styles.linksContainer}>
             {/* <div className={styles.link}>
               Esqueceu a senha?<a href="#"> Redefina</a>
