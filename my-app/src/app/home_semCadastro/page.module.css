@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 15px 13px;
+  background-color: #fff;
+  border-bottom: 0px solid #FFFAFA;
+  font-family: 'Inter', sans-serif;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  margin-bottom: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+}
+
+.searchBar {
+  flex: 1;
+  margin: 0 20px;
+  margin-left: 300px;
+  padding: 10px 10px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+.registerButton {
+  padding: 10px 20px;
+  border: 5px solid #ccc;
+  border-radius: 15px;
+  background-color: #65558F;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+.registerButton:hover {
+  background-color: #f1f1f1;
+  font-family: 'Inter', sans-serif;
+}
+
+.registerButton a {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.centerAll {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding-top: 24px;
+  background-color: #fff;
+  color: #FFFAFA;
+  /* position: fixed; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  border-right: 1px solid #FFFAFA;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #000;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.sidebarItem:hover {
+  background-color: #9747FF;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidebarItem span {
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidebarItem a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+  
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-left: 200px;
+  /* Ajustar para que a barra de navegação não fique atrás da barra lateral */
+  font-family: 'Inter', sans-serif;
+}
+
+.navItem {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+.navItem:hover {
+  background-color: #e1e1e1;
+  font-family: 'Inter', sans-serif;
+}
+
+.mainContent {
+  flex: 1;
+  /* padding: 20px; */
+  /* margin-left: 200px; */
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  font-family: 'Inter', sans-serif;
+}
+
+.videoGrid {
+  display: grid;
+  margin-left: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 3fr));
+  gap: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.videoCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 5px #000000(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+.videoCard:hover {
+  transform: scale(1.05);
+  font-family: 'Inter', sans-serif;
+}
+
+.videoInfo {
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.videoTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.videoChannel {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.videoViews {
+  font-size: 12px;
+  color: #999;
+  font-family: 'Inter', sans-serif;
+}
+
+/* /---------------------------------------------------------------------------------------------------------------/ */
+
+@Media only screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .searchBar {
+    margin-left: 0;
+  }
+
+  .logoWrapper {
+    display: none;
+  }
+
+  .centerAll {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidebar {
+    position: fixed;
+    width: 100vw;
+    height: max-content;
+    top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .sidebarItem {
+    width: max-content;
+  }
+
+  .videoGrid {
+    display: grid;
+    /* margin-left: 50px; */
+    font-family: 'Inter', sans-serif;
+  }
+
+  .videoCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px #000000(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .videoInfo {
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+    width: calc(100% - 10px);
+  }
+
+  .videoTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .videoChannel {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .videoViews {
+    font-size: 12px;
+    color: #999;
+    font-family: 'Inter', sans-serif;
+  }
+
+}
